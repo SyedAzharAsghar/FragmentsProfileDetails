@@ -7,16 +7,19 @@
     tools:context="com.androiddeveloper.fragments.DetailsProFrag">
 
     <android.support.v7.widget.CardView
-        android:id="@+id/addButton"
+        android:id="@+id/basic_info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="25dp"
+        app:cardBackgroundColor="#fff"
         app:cardCornerRadius="12dp"
         app:cardElevation="15dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:padding="15dp"
             android:orientation="vertical"
            >
         <TextView
@@ -25,9 +28,149 @@
             android:textColor="#000"
             android:textSize="16dp"
             android:textStyle="bold"
-
             android:text="Basic Information" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                 android:orientation="horizontal"
+                android:paddingTop="10dp"
+                >
+                <ImageView
+                    android:src="@mipmap/ic_launcher"
+                     android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:paddingLeft="10dp"
+                    android:textSize="14dp"
+                     android:text="London, United Kingdom" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                >
+                <ImageView
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:paddingLeft="10dp"
+                    android:textSize="14dp"
+                     android:text="$50 per hour" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                >
+                <ImageView
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:paddingLeft="10dp"
+                    android:textSize="14dp"
+                     android:text="Download or view CV" />
+            </LinearLayout>
         </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/experience_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        app:cardBackgroundColor="#fff"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Experience Information" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                >
+                <ImageView
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:paddingLeft="10dp"
+                    android:textSize="14dp"
+                    android:text="London, United Kingdom" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                >
+                <ImageView
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:paddingLeft="10dp"
+                    android:textSize="14dp"
+                    android:text="$50 per hour" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                >
+                <ImageView
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:paddingLeft="10dp"
+                    android:textSize="14dp"
+                    android:text="Download or view CV" />
+            </LinearLayout>
+        </LinearLayout>
+
     </android.support.v7.widget.CardView>
 </LinearLayout>
 
