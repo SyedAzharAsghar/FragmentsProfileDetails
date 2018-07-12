@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="60dp"
+        android:id="@+id/active_job_icon"
+        android:layout_height="60dp" />
+    <TextView
+        android:layout_width="60dp"
+        android:id="@+id/active_job_name"
+        android:layout_height="60dp" />
+    <Button
+        android:layout_width="60dp"
+        android:id="@+id/edit_job_btn"
+        android:layout_height="60dp" />
+    <Button
+        android:layout_width="60dp"
+        android:id="@+id/stop_job_btn"
+        android:layout_height="60dp" />
+</LinearLayout>
