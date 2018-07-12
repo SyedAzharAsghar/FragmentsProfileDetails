@@ -28,11 +28,11 @@ public class FragmentCategory extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
 
        if(position == 0){
-            return  new DetailsProFrag();
+            return  new ActiveJobFrag();
         }else if(position == 1){
-            return  new ReviewsProFrag();
+            return  new PreviousJobFrag();
         } else{
-            return  new DetailsProFrag();
+            return  new ActiveJobFrag();
         }
     }
 

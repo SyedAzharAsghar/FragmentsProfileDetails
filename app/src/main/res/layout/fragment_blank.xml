@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.androiddeveloper.fragments.DetailsProFrag">
+    tools:context="com.androiddeveloper.fragments.ActiveJobFrag">
 
     <android.support.v7.widget.CardView
         android:id="@+id/basic_info"
